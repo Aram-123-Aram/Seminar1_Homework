@@ -30,6 +30,7 @@ while i<len(text):
 countWord = count+1
 print(f"Sample Output:\n{countWord}")
 '''
+'''
 #variant2:
 count=0
 for i in text:
@@ -37,5 +38,7 @@ for i in text:
         count+=1
 countWord = count+1
 print(f"Sample Output:\n{countWord}")
-
+'''
+#variant3:
+#print(text.count(' ')+1)
 
