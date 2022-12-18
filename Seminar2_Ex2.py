@@ -22,16 +22,21 @@ Sample Output 2:
 '''
 text = input("Enter the text: ")
 print(f"Sample Input:\n {text}")
-CostText=len(text)*60
 
-'''
+#variant1:
+CostText=len(text)*60
+print(f"Sample Output:\n{CostText//100} р. {CostText%100} коп.")
+
+'''variant2:
 CostText=0
 i=0
 while i<len(text):
     CostText=CostText+60
     i+=1
+print(f"Sample Output:\n{CostText//100} р. {CostText%100} коп.")
     '''
+#variant3:
 # CostText=0
 #for i in text:
 #   CostText=CostText+60
-print(f"Sample Output:\n{CostText//100} р. {CostText%100} коп.")
+#print(f"Sample Output:\n{CostText//100} р. {CostText%100} коп.")
