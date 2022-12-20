@@ -40,5 +40,5 @@ countWord = count+1
 print(f"Sample Output:\n{countWord}")
 '''
 #variant3:
-#print(text.count(' ')+1)
+print(text.count(' ')+1)
 
