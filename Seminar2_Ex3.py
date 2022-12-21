@@ -50,9 +50,12 @@ while i<len(text):
     i+=1
 print(count)
 '''
+'''
 count = 1
 for i in range(len(text)):
     if text[i] == " " and text[i+1] != " ":
         count+=1
 print(count)
+'''
+print(len(text.split()))
 
