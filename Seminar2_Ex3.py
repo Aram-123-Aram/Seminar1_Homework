@@ -40,5 +40,19 @@ countWord = count+1
 print(f"Sample Output:\n{countWord}")
 '''
 #variant3:
-print(text.count(' ')+1)
+#print(text.count(' ')+1)
+'''
+count = 1
+i=0
+while i<len(text):
+    if text[i] == " " and text[i+1] != " ":
+        count+=1
+    i+=1
+print(count)
+'''
+count = 1
+for i in range(len(text)):
+    if text[i] == " " and text[i+1] != " ":
+        count+=1
+print(count)
 
